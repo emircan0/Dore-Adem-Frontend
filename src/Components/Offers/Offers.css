@@ -1,0 +1,158 @@
+.offers {
+    position: relative;
+    margin-bottom: 75px;
+}
+.offers-img {
+    position: relative;
+}
+.offers-content {
+    position: absolute;
+    top: 35%;
+    left: 5%; /* Soldan boşluk */
+    transform: translateY(-50%);
+    text-align: left; /* Sola yaslanmış hizalama */
+}
+.offers-baslik {
+    margin-bottom: 10px; /* Başlık ile alt başlık arasına boşluk ekleyin */
+    color: #342c2c;
+}
+
+.offers-baslik h1 {
+    color: #342c2c;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.offers-baslik p {
+    color: #171717;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.offers-baslik button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 200px; /* Örnek bir genişlik */
+    height: 50px; /* Örnek bir yükseklik */
+    border-radius: 25px; /* Yuvarlak kenarlar için */
+    background-color: #ff4141;
+    color: white;
+    font-size: 18px; /* Örnek bir font boyutu */
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 35px;
+    margin-top: 30px;
+}
+
+
+
+@media(max-width: 1280px) {
+    .offers {
+        padding: 0px 80px;
+        margin-bottom: 120px;
+    }
+
+    .offers-baslik h1 {
+        font-size: 40px;
+    }
+
+    .offers-baslik p {
+        font-size: 18px;
+    }
+
+    .offers-baslik button {
+        width: 220px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .offers-img img {
+        width: 300px;
+    }
+
+    .offers-img {
+        padding-top: 30px;
+    }
+}
+
+@media(max-width: 1024px) {
+    .offers {
+        padding: 0px 60px;
+        margin-bottom: 80px;
+        height: 40vh;
+    }
+
+    .offers-baslik h1 {
+        font-size: 30px;
+    }
+
+    .offers-baslik p {
+        font-size: 16px;
+    }
+
+    .offers-baslik button {
+        width: 160px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .offers-img img {
+        width: 200px;
+    }
+
+    .offers-img {
+        padding-top: 10px;
+    }
+}
+
+@media(max-width: 800px) {
+    .offers {
+        margin-bottom: 60px;
+    }
+
+    .offers-baslik h1 {
+        font-size: 20px;
+    }
+
+    .offers-baslik p {
+        font-size: 13px;
+    }
+
+    .offers-baslik button {
+        width: 140px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .offers-img img {
+        width: 180px;
+    }
+}
+
+@media(max-width: 500px) {
+    .offers {
+        margin-bottom: 50px;
+        height: 25vh;
+    }
+
+    .offers-baslik h1 {
+        font-size: 16px;
+    }
+
+    .offers-baslik p {
+        font-size: 10px;
+    }
+
+    .offers-baslik button {
+        width: 120px;
+        height: 25px;
+        font-size: 10px;
+        margin-top: 12px;
+    }
+
+    .offers-img img {
+        width: 120px;
+    }
+}

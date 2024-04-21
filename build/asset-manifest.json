@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.69ee8eea.css",
+    "main.js": "/static/js/main.6d868ae9.js",
+    "static/js/787.9e9f4ffd.chunk.js": "/static/js/787.9e9f4ffd.chunk.js",
+    "static/media/banner_kids.png": "/static/media/banner_kids.fff815a581793a7380fb.png",
+    "static/media/banner_women.png": "/static/media/banner_women.5a27fc4e4533e57e4676.png",
+    "static/media/banner_mens.png": "/static/media/banner_mens.eed7197157196f319b17.png",
+    "static/media/deneme3.png": "/static/media/deneme3.a35c24f51ac4d7cfb6f7.png",
+    "static/media/deneme.png": "/static/media/deneme.1834851eb15acf47e502.png",
+    "static/media/product_3.png": "/static/media/product_3.367a5a82ab9e3c9a548a.png",
+    "static/media/product_2.png": "/static/media/product_2.cb5efec79990aacf6566.png",
+    "static/media/product_4.png": "/static/media/product_4.1abf021e313b868e5c05.png",
+    "static/media/product_1.png": "/static/media/product_1.ca18ea387bf0793c60c4.png",
+    "static/media/logo 1.png": "/static/media/logo 1.5d5f64b29d039fc52156.png",
+    "index.html": "/index.html",
+    "main.69ee8eea.css.map": "/static/css/main.69ee8eea.css.map",
+    "main.6d868ae9.js.map": "/static/js/main.6d868ae9.js.map",
+    "787.9e9f4ffd.chunk.js.map": "/static/js/787.9e9f4ffd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69ee8eea.css",
+    "static/js/main.6d868ae9.js"
+  ]
+}

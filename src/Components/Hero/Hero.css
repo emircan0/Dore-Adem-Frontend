@@ -1,0 +1,89 @@
+.hero {
+    position: relative;
+}
+
+.hero-img {
+    position: relative;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 10%; /* Soldan boşluk */
+    transform: translateY(-50%);
+    text-align: left; /* Sola yaslanmış hizalama */
+}
+
+.hero-baslik {
+    margin-bottom: 10px; /* Başlık ile alt başlık arasına boşluk ekleyin */
+    color: #342c2c;
+    
+}
+
+.hero-content h2 {
+    color: #7a7a7a;
+    font-size: 32px; /* Başlık font boyutu artırıldı */
+    font-weight: 700; /* Başlık font ağırlığı artırıldı */
+    margin-bottom: 5px; /* Başlık ile alt başlık arasına boşluk ekleyin */
+}
+
+.hero-content p {
+    color: #7a7a7a;
+    font-size: 25px; /* Alt başlık font boyutu artırıldı */
+    font-weight: 600; /* Alt başlık font ağırlığı artırıldı */
+}
+
+.hero-hand-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.hero-hand-icon img {
+    width: 20px; /* Örnek bir genişlik */
+}
+
+.hero-latest-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 200px; /* Örnek bir genişlik */
+    height: 50px; /* Örnek bir yükseklik */
+    border-radius: 25px; /* Yuvarlak kenarlar için */
+    background-color: #ff4141;
+    color: white;
+    font-size: 18px; /* Örnek bir font boyutu */
+    font-weight: 500;
+}
+
+
+
+@media(max-width:1280px){
+    .hero-content {
+        margin-left: 5%; /* Soldan boşluku 5% olarak ayarla */
+    }
+}
+
+@media(max-width:1024px){
+    .hero-content {
+        margin-left: 3%; /* Soldan boşluğu 3% olarak ayarla */
+    }
+}
+
+@media(max-width:800px){
+    .hero-content {
+        margin-left: 10px; /* Soldan boşluğu 10 piksel olarak ayarla */
+        margin-top: 30%; /* Yukarıdan boşluğu 30% olarak ayarla */
+    }
+}
+
+@media(max-width:500px){
+    .hero {
+        flex-direction: column; /* Yeni boyutlara göre dikey hizalama için */
+    }
+    .hero-img {
+        display: none; /* Küçük ekranlarda görseli gizle */
+    }
+}
